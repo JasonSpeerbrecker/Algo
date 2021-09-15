@@ -38,4 +38,4 @@ function countEvenNegatives(nums) {
   return count;
 }
 
-console.log(countEvenNegatives(nums1))
+console.log(countEvenNegatives(expected1))

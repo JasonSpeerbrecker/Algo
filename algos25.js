@@ -9,6 +9,8 @@
   Output: null
 */
 
+const nums1 =[1,2,3,4,5,6,7,8]
+
 function firstNonConsecutive(nums) {
     for (let i = 1; i < nums.length; i++) {
       const prevNum = nums[i - 1];
@@ -20,3 +22,5 @@ function firstNonConsecutive(nums) {
     }
     return null;
   }
+
+console.log(firstNonConsecutive(nums1))
